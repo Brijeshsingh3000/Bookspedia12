@@ -1,0 +1,149 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./assets/loginbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    opacity: .9;
+}
+
+.login-container>span {
+    margin-top: 1rem;
+    color: white;
+
+}
+
+.login-container>span>button {
+    border: none;
+    background-color: rgba(53, 6, 63, 0.463);
+    color: rgb(255, 93, 24);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(53, 6, 63, 0.463);
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.sign-up-container>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-container>form>h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    text-shadow:
+        0px 5px 0 #000000,
+        /* Shadow offset and color for the outline */
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+    /* Repeat for thicker outlines */
+}
+
+.sign-up-container>form>input {
+    margin: .2rem;
+    border-radius: 5px;
+    border: none;
+    padding: .3rem;
+}
+
+.sign-up-container>form>button {
+    border: none;
+    background-color: rgba(53, 6, 63, 0.463);
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sign-up-container>form>button:hover {
+    transform: scale(1.1);
+    background-color: rgba(53, 6, 63, 0.658);
+}
+
+.sign-up-container>form>span {
+    color: red;
+    font-weight: bold;
+}
+
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(53, 6, 63, 0.463);
+    width: 30vw;
+    height: 100%;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.sign-in-container>form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in-container>form>h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    text-shadow:
+        0px 5px 0 #000000,
+        /* Shadow offset and color for the outline */
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000;
+    /* Repeat for thicker outlines */
+}
+
+.sign-in-container>form>input {
+    margin: .2rem;
+    border-radius: 5px;
+    border: none;
+    padding: .3rem;
+}
+
+.sign-in-container>form>button {
+    border: none;
+    background-color: rgba(53, 6, 63, 0.463);
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sign-in-container>form>button:hover {
+    transform: scale(1.1);
+    background-color: rgba(53, 6, 63, 0.658);
+}
+
+.sign-in-container>form>span {
+    color: red;
+    font-weight: bold;
+}
