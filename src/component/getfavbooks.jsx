@@ -53,8 +53,6 @@ const Favbooks = () => {
     const handleRemoveBook = (id) => {
         removeFavbooks(id);
     };
-
-    console.log(favbook);
     return (
         <div className="fav-container">
             <ToastContainer />
