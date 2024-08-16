@@ -73,7 +73,7 @@ const ViewDetails = () => {
                         <button className="mx-3 my-2" style={{ backgroundColor: "#d34917", color: "white", border: "none", borderRadius: "5px" }}
                             onClick={(() => handleClick())}
                         >
-                            Add Review +
+                            {check ? "Cancel ❌" : "Add Review +"}
                         </button>
                         <div>
                             <textarea placeholder={newReview === "" ? ("Reminder:Please be respectful and constructive and avoid using language that could be hurtful or negative") : ("")} style={{
