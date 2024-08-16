@@ -370,6 +370,7 @@ input#img-8:checked~.nav-dots label#img-dot-8 {
 .act-btn>button {
   background-color: transparent;
   border: none;
+  color:white;
   margin-left: 1rem;
 }
 
